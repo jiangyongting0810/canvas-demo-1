@@ -18,13 +18,9 @@
         let ctx = canvas.getContext("2d");
         ctx.fillStyle = "black";
         ctx.strokeStyle = 'black';
-        ctx.lineWidth = 80;
+        ctx.lineWidth = 10;
         ctx.lineCap = "round";
-        console.log("1")
         
-        drawLine(0,0,300,300);
-        drawLine(300, 300, 400,200);
-
 
         function drawLine(x1, y1, x2, y2){
         ctx.beginPath();
